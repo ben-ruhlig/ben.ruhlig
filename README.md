@@ -1,19 +1,14 @@
-# SvelteKit Static Blog Template
+# Ben Ruhlig's Personal Webpage
 
-A lightweight and customizable template for blogs and portfolio websites, built with SvelteKit.
+I'm a new developer primarily, with a background in finance, focused on building products and enhancing my capabilities around data analysis. I'm taking a do first approach to learning and facilitating that with a part-time [Master's in Computer & Information Technology at UPenn](https://online.seas.upenn.edu/degrees/mcit-online/).
+
+I forked Matt Fantinel's [sveltekit-static-blog-template](https://github.com/matfantinel/sveltekit-static-blog-template) as a starting point for this website. My goal is not to become a front-end engineer, but know enough to be speak the language and build minimum viable products. I plan to showcase my projects from this website and add reactivity to components as necessary to do that.
 
 <p align="center">
     <img src="static/images/site-screenshot.png" alt="Screenshot" />
 </p>
 
-It was built with a few goals in mind:
-
-- Responsive design: the website looks and behaves well on screens of all sizes;
-- Fast: it only loads what's needed for it to work;
-- Adaptive: it supports dark mode from most operating systems by default (desktop and mobile);
-- Pretty: have a pleasant design that is both accessible and pleasing to the eye.
-
-I achieved this with the help of SvelteKit. There is almost no JavaScript running, and it actually works with JS disabled! While JS is awesome, it's important to know when it's not needed.
+---
 
 # Demo site
 
