@@ -7,17 +7,14 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			I'm bridging the gap between finnace, data and
+			<SparklingHighlight color="secondary">design!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			Finance pro turned UX-focused coder, I'm breaking free from the back room to create meaningful
+			user experiences. With a unique blend of finance, data, and design, I'm bringing a fresh
+			perspective to the world of development.
 		</p>
-		<div class="socials">
-			<span>Socials:</span>
-			<Socials />
-		</div>
 	</div>
 	<div class="image">
 		<Image src="/images/personal-image.png" alt="Sample for the static template" />
