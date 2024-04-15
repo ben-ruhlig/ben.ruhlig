@@ -11,8 +11,8 @@
 			<SparklingHighlight color="secondary">design!</SparklingHighlight>
 		</h2>
 		<p>
-			Finance pro turned UX-focused coder, I'm breaking free from the back room to create meaningful
-			user experiences. With a unique blend of finance, data, and design, I'm bringing a fresh
+			Finance pro turned coder, I'm breaking free from the back room to create meaningful user
+			experiences. With a unique blend of finance, data, and design, I'm bringing a fresh
 			perspective to the world of development.
 		</p>
 	</div>
