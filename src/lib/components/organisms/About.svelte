@@ -7,7 +7,7 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			I'm bridging the gap between finnace, data and
+			I'm bridging the gap between finace, data and
 			<SparklingHighlight color="secondary">design!</SparklingHighlight>
 		</h2>
 		<p>

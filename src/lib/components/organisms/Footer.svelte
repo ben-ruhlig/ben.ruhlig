@@ -11,7 +11,7 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			© 2024 Ben Ruhlig. This website is based on a template built by <a
+			© 2024 Ben Ruhlig. Based on template by <a
 				href="https://fantinel.dev?utm_source=site-template"
 				target="_blank"
 				rel="noopener noreferrer">Matheus Fantinel</a
