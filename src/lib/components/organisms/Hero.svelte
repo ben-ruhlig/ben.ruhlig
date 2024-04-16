@@ -1,6 +1,6 @@
 <script>
 	import BlogIcon from '$lib/icons/blog.svelte';
-	import GitHubIcon from '$lib/icons/socials/github.svelte';
+	import ExperienceIcon from '$lib/icons/experience.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
 </script>
@@ -12,9 +12,9 @@
 		<span class="right"> development and writing about it.</span>
 	</p>
 	<div class="ctas">
-		<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-			<GitHubIcon slot="icon" />
-			Source Code
+		<Button href="#projects">
+			<ExperienceIcon slot="icon" />
+			Projects
 		</Button>
 		<Button ref="blog-btn" href="/blog">
 			<BlogIcon slot="icon" />
