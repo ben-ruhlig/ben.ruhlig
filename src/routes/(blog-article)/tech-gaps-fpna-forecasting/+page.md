@@ -1,7 +1,7 @@
 ---
 slug: tech-gaps-fpna-forecasting
 title: Technology Gaps in FP&A Forecasting
-date: 2023-04-15T22:03:00.800Z
+date: 2023-04-15T23:37:15.31Z
 excerpt: An exploration of the limitations and challenges in existing technology solutions for financial forecasting within FP&A.
 coverImage: /images/posts/tech-gaps-fpna.jpg
 tags:

@@ -2,7 +2,7 @@
 title: Journey Through the UPenn MCIT Online Program
 slug: journey-upenn-mcit-online
 coverImage: /images/posts/mcit-online.jpg
-date: 2023-04-22T21:55:15.361Z
+date: 2023-04-15T22:37:15.361Z
 excerpt: An insight into why I chose the UPenn MCIT Online Program and my journey so far.
 tags:
   - Education
