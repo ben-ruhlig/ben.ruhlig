@@ -38,3 +38,10 @@ export type BlogPost = {
   relatedPosts: BlogPost[],
   coverImage: string | undefined
 }
+
+export type Project = {
+  name: string,
+  description: string,
+  image: string,
+  tags: TagType[]
+}
