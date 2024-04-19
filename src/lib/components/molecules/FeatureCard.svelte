@@ -22,19 +22,25 @@
 	<div class="content" slot="content">
 		<div class="title">
 			<span>{name}</span>
-			<div class="links">
-				<a
-					href={githubLink}
-					target="_blank"
-					rel="noopener noreferrer"
-					title="Open Source Code on GitHub"
-				>
-					<GitHubIcon /></a
-				>
-				<a href={projectLink} target="_blank" rel="noopener noreferrer" title="Open Project">
-					<ProjectLinkIcon />
-				</a>
-			</div>
+			{#if githubLink || projectLink}
+				<div class="links">
+					{#if githubLink}
+						<a
+							href={githubLink}
+							target="_blank"
+							rel="noopener noreferrer"
+							title="Open Source Code on GitHub"
+						>
+							<GitHubIcon /></a
+						>
+					{/if}
+					{#if projectLink}
+						<a href={projectLink} target="_blank" rel="noopener noreferrer" title="Open Project">
+							<ProjectLinkIcon />
+						</a>
+					{/if}
+				</div>
+			{/if}
 		</div>
 		<p>{description}</p>
 	</div>

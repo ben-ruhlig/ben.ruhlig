@@ -15,13 +15,15 @@ export default [
     description:
       'You can easily theme the entire website by changing just a few colors in the _themes.scss file.',
     image: 'images/features/themeable.jpg',
-    tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }]
+    tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }],
+    githubLink: 'https://github.com/ben-ruhlig',
   },
   {
     name: 'Project #3',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque vitae tempus quam pellentesque nec nam aliquam sem et.',
     image: 'images/features/extensible.jpg',
+    projectLink: './project-3'
   },
   {
     name: 'Project #4',
