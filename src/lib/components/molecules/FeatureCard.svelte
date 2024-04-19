@@ -1,13 +1,18 @@
 <script lang="ts">
 	import Card from '$lib/components/atoms/Card.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
-	import type { TagType } from '$lib/utils/types';
+	import type { BlogPost, TagType } from '$lib/utils/types';
 	import Image from '../atoms/Image.svelte';
+	import GitHubIcon from '$lib/icons/socials/github.svelte';
+	import ProjectLinkIcon from '$lib/icons/external-link.svelte';
 
 	export let name: string;
 	export let description: string;
 	export let image: string;
 	export let tags: TagType[] | undefined;
+	export let relatedPosts: BlogPost[] | undefined;
+	export let githubLink: string;
+	export let projectLink: string;
 </script>
 
 <Card additionalClass="feature-card">
@@ -17,6 +22,19 @@
 	<div class="content" slot="content">
 		<div class="title">
 			<span>{name}</span>
+			<div class="links">
+				<a
+					href={githubLink}
+					target="_blank"
+					rel="noopener noreferrer"
+					title="Open Source Code on GitHub"
+				>
+					<GitHubIcon /></a
+				>
+				<a href={projectLink} target="_blank" rel="noopener noreferrer" title="Open Project">
+					<ProjectLinkIcon />
+				</a>
+			</div>
 		</div>
 		<p>{description}</p>
 	</div>
@@ -44,10 +62,28 @@
 		align-items: center;
 		justify-content: space-between;
 		width: 100%;
-
 		font-size: 1.2rem;
 		font-family: var(--font--title);
 		font-weight: 700;
+	}
+	.links {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 15px;
+	}
+	.links a {
+		width: 30px;
+		height: 30px;
+		padding: 3px;
+		color: var(--color--secondary);
+		transition: all 0.2s ease-in-out;
+
+		&:hover {
+			color: var(--color--primary);
+			fill: var(--color--primary);
+			filter: drop-shadow(0px 0px 3px var(--color--primary));
+		}
 	}
 
 	.tags {

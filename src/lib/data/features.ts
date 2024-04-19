@@ -6,7 +6,9 @@ export default [
     description:
       'This is where a description of the project will go. Eventually I need to add a way to link to the project page as well as the github repo, if open source.',
     image: 'images/features/markdown.jpg',
-    tags: [{ label: 'Add Tags' }]
+    tags: [{ label: 'Add Tags' }],
+    githubLink: 'https://github.com/ben-ruhlig',
+    projectLink: './project-1'
   },
   {
     name: 'Project #2',

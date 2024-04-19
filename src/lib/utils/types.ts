@@ -13,15 +13,14 @@ export type TagType = {
   color?: 'primary' | 'secondary'
 }
 
-export type SocialLink = {
-  
-}
-
 export type Feature = {
   name: string,
   description: string,
   image: string,
   tags: TagType[]
+  relatedPosts: BlogPost[],
+  githubLink: string,
+  projectLink: string
 }
 
 export type BlogPost = {
@@ -37,11 +36,4 @@ export type BlogPost = {
   readingTime: string,
   relatedPosts: BlogPost[],
   coverImage: string | undefined
-}
-
-export type Project = {
-  name: string,
-  description: string,
-  image: string,
-  tags: TagType[]
 }
