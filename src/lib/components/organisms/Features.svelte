@@ -15,6 +15,9 @@
 					description={feature.description}
 					image={feature.image}
 					tags={feature.tags}
+					relatedPosts={feature.relatedPosts}
+					githubLink={feature.githubLink}
+					projectLink={feature.projectLink}
 				/>
 			{/each}
 		</div>
