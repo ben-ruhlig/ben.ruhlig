@@ -37,3 +37,16 @@ export type BlogPost = {
   relatedPosts: BlogPost[],
   coverImage: string | undefined
 }
+
+export type WorkExperience = {
+  jobId: number,
+  company: string,
+  jobTitle: string,
+  location: string,
+  timeframe: string,
+  current: boolean,
+  description: string | undefined,
+  bulletPoints: string[] | undefined,
+  corporateLogo: string | undefined,
+  relatedPosts: BlogPost[]
+}
