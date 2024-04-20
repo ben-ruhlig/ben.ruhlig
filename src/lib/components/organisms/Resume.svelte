@@ -79,7 +79,7 @@
 		@media (min-width: 768px), print {
 			padding: 30px 20px;
 			grid-template-columns: 2fr 1fr;
-			grid-template-rows: 1fr 1fr 1fr 1fr;
+			grid-template-rows: .5fr 1fr .5fr .5fr;
 
 			grid-template-areas:
 				'name photo'
