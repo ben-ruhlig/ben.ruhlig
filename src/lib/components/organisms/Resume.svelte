@@ -44,8 +44,13 @@
 		<SectionTitle>Education</SectionTitle>
 		<p>
 			Graduated as a{' '}
-			<b>Technologist in System Analysis and Development</b> at{' '}
-			<i>Centro Universitário da Serra Gaúcha</i>, 2018.
+			<b>Bachelor's in Accountancy</b> at{' '}
+			<i>Northern Illinois University</i>, 2014.
+		</p>
+		<p>
+			Graduated as a{' '}
+			<b>Bachelor's in Accountancy</b> at{' '}
+			<i>Northern Illinois University</i>, 2014.
 		</p>
 	</section>
 	<section class="skills">
@@ -79,7 +84,7 @@
 		@media (min-width: 768px), print {
 			padding: 30px 20px;
 			grid-template-columns: 2fr 1fr;
-			grid-template-rows: .5fr 1fr .5fr .5fr;
+			grid-template-rows: 0.5fr 1.5fr 1fr 1fr;
 
 			grid-template-areas:
 				'name photo'
@@ -161,6 +166,11 @@
 				}
 			}
 		}
+	}
+
+	.education {
+		display: flex;
+		flex-direction: column;
 	}
 
 	// Print-specific styles

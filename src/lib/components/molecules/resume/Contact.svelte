@@ -3,20 +3,13 @@
 	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
 	import PinIcon from '$lib/icons/pin.svelte';
-	import ChatIcon from '$lib/icons/chat.svelte';
 	import InternetIcon from '$lib/icons/internet.svelte';
 	import ExperienceIcon from '$lib/icons/experience.svelte';
-	import StarIcon from '$lib/icons/star.svelte';
-	import { calculateYearsSince } from '$lib/utils/functions';
 
 	export let yearsOfExperience: number;
 </script>
 
 <ul class="resume-contact">
-	<li class="birthday">
-		<span class="icon"><StarIcon /></span>
-		<span>{calculateYearsSince(new Date('1991-10-08'))} years old</span>
-	</li>
 	<li class="experience">
 		<span class="icon"><ExperienceIcon /></span>
 		<span>
@@ -25,7 +18,7 @@
 	</li>
 	<li class="location">
 		<span class="icon"><PinIcon /></span>
-		<span>Caxias do Sul, RS, Brazil</span>
+		<span>Houston, TX, USA</span>
 	</li>
 	<li class="email">
 		<span class="icon"><EmailIcon /></span>
@@ -33,8 +26,8 @@
 	</li>
 	<li class="linkedin">
 		<span class="icon"><LinkedInIcon /></span>
-		<a href="https://www.linkedin.com/in/benruhlig/" target="_blank" rel="noopener noreferrer">
-			LinkedIn Profile
+		<a href="https://www.linkedin.com/in/ruhlig/" target="_blank" rel="noopener noreferrer">
+			linkedin.com/in/ruhlig
 		</a>
 	</li>
 	<li class="website">
@@ -46,12 +39,8 @@
 	<li class="github">
 		<span class="icon"><GitHubIcon /></span>
 		<a href="https://github.com/ben-ruhlig" target="_blank" rel="noopener noreferrer">
-			GitHub Profile
+			github.com/ben-ruhlig
 		</a>
-	</li>
-	<li class="languages">
-		<span class="icon"><ChatIcon /></span>
-		<span>English</span>
 	</li>
 </ul>
 
@@ -61,17 +50,16 @@
 		padding: 0;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: auto;
 
 		display: grid;
 		grid-gap: 10px;
 		grid-template-columns: 1fr 1fr;
 
 		grid-template-areas:
-			'email email'
-			'website website'
-			'location languages'
-			'birthday experience'
-			'github linkedin';
+			'location github'
+			'experience linkedin'
+			'email website';
 
 		li {
 			display: flex;
@@ -99,9 +87,6 @@
 				}
 			}
 
-			&.birthday {
-				grid-area: birthday;
-			}
 			&.location {
 				grid-area: location;
 			}
@@ -122,23 +107,20 @@
 			&.github {
 				grid-area: github;
 			}
-			&.languages {
-				grid-area: languages;
-			}
 		}
 
 		@media (min-width: 768px), print {
 			margin-left: 0;
 			margin-right: 0;
+			margin-bottom: 0;
 
 			grid-gap: 5px;
 			grid-template-columns: 1fr 1fr;
 
 			grid-template-areas:
 				'location github'
-				'birthday linkedin'
-				'experience email'
-				'languages website';
+				'experience linkedin'
+				'email website';
 
 			li {
 				&.email {

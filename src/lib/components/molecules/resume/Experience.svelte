@@ -7,15 +7,16 @@
 	export let entries: WorkExperience[];
 </script>
 
+
 <div class="resume-experience">
 	{#if entries}
 		{#each entries as entry}
-			<div class="experience" class:current={entry?.current}>
+			<div class="experience" class:current={entry.current}>
 				<div class="timeline">
 					<div class="time">
-						{#if entry?.current}Current{/if}
+						{#if entry.current}Current{/if}
 						<CircleIcon />
-						{entry?.timeframe?.split(' ')[0]}
+						{entry.timeframe.split(' ')[0]}
 					</div>
 					<div class="line" />
 				</div>
@@ -23,15 +24,12 @@
 					<div class="title">
 						<div>
 							<span class="company-name">
-								<TintHighlight>{entry?.company}</TintHighlight>
+								<TintHighlight>{entry.company}</TintHighlight>
 							</span>
 						</div>
-						<small
-							>{entry?.jobTitle} | <span class="icon"><PinIcon /></span> {entry?.location}</small
-						>
+						<small>{entry.jobTitle} | <span class="icon"><PinIcon /></span> {entry.location}</small>
 					</div>
-
-					<p>{entry?.description}</p>
+					<p>{entry.description}</p>
 				</div>
 			</div>
 		{/each}

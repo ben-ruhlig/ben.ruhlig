@@ -14,7 +14,7 @@ export default [
     },
     {
         jobId: 2,
-        copmany: 'PwC',
+        company: 'PwC',
         jobTitle: 'Senior Auditor',
         location: 'Chicago, IL USA',
         timeframe: '2016 -> 2017',
@@ -26,7 +26,7 @@ export default [
     },
     {
         jobId: 3,
-        copmany: 'KPMG',
+        company: 'KPMG',
         jobTitle: 'Senior Consultant - M&A Financial Due Diligence',
         location: 'Chicago, IL USA',
         timeframe: '2017 -> 2019',
@@ -35,7 +35,7 @@ export default [
     },
     {
         jobId: 4,
-        copmany: 'bp',
+        company: 'bp',
         jobTitle: 'Financial Analyst - Supply Fixed Cash Costs',
         location: 'Chicago, IL USA',
         timeframe: '2019 -> 2020',
@@ -44,7 +44,7 @@ export default [
     },
     {
         jobId: 5,
-        copmany: 'bp',
+        company: 'bp',
         jobTitle: 'Financial Analyst - Whiting Refinery Supply',
         location: 'Chicago, IL USA',
         timeframe: '2020 -> 2021',
@@ -53,7 +53,7 @@ export default [
     },
     {
         jobId: 6,
-        copmany: 'bp',
+        company: 'bp',
         jobTitle: 'Senior Financial Advisor - Fuels Supply & Midstream (FS&M)',
         location: 'Chicago, IL USA',
         timeframe: '2021 -> Now',
