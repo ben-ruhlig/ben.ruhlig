@@ -16,7 +16,6 @@
 			<Socials />
 			<RssLink />
 			<a href="/blog">Blog</a>
-			<a href="/resume">Resume</a>
 			<ThemeToggle />
 		</div>
 	</nav>
