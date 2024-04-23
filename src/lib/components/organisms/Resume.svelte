@@ -9,7 +9,7 @@
 	import { calculateYearsSince } from '$lib/utils/functions';
 
 	let yearsOfExperience: number;
-	export let experienceEntries: WorkExperience[];
+	export let sortedExperiences: WorkExperience[];
 
 	yearsOfExperience = calculateYearsSince(new Date('2014-08-01'));
 </script>
@@ -38,7 +38,7 @@
 	</section>
 	<section class="work">
 		<SectionTitle>Professional Experience</SectionTitle>
-		<Experience entries={experienceEntries} />
+		<Experience entries={sortedExperiences} />
 	</section>
 	<section class="education">
 		<SectionTitle>Education</SectionTitle>

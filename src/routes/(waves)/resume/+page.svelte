@@ -6,10 +6,10 @@
 	import type { WorkExperience } from '$lib/utils/types';
 
 	export let data: {
-		experienceEntries: WorkExperience[];
+		sortedExperiences: WorkExperience[];
 	};
 
-	let { experienceEntries } = data;
+	let { sortedExperiences } = data;
 </script>
 
 <svelte:head>
@@ -29,7 +29,7 @@
 		Download as PDF
 	</Button>
 
-	<Resume {experienceEntries} />
+	<Resume {sortedExperiences} />
 </div>
 
 <style lang="scss">

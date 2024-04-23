@@ -1,8 +1,8 @@
-import experienceEntries from '$lib/data/work-experience';
+import { sortedExperiences } from '$lib/data/resume-experience';
 
 export async function load() {
 
     return {
-        experienceEntries
+        sortedExperiences
     };
 }
